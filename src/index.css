@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #282D35;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,4 +22,14 @@
 body{
   margin:0;
   padding:0;
+}
+
+.header{
+  background-color: var(--tomato);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  height: 55px;
+
 }
