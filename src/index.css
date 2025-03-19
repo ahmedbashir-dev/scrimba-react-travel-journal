@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+
+  --tomato: #F55A5A;
+  --light-grey: #918E9B;
+  --dark-grey-blue:#2B283A;
+  --border-grey: #F5F5F5;
 }
 
 body{
