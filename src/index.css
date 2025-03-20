@@ -40,6 +40,7 @@ body{
 
 .journal-entry{
   display: flex;
+  margin-bottom: 36px;
 }
 
 .main-image-container{

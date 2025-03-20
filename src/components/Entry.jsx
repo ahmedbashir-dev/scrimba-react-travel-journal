@@ -1,6 +1,7 @@
 import marker from "../assets/marker.png";
 
-export default function Entry({img, title, country, googleMapsLink, dates, text}){
+export default function Entry(props){
+    const {img, title, country, googleMapsLink, dates, text} = props.entry;
     return(
         <div className="journal-entry">
             <div className="main-image-container">
